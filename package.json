@@ -1,0 +1,14 @@
+{
+  "name": "jenkins-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BolajiOlajide/jenkins-sample.git",
+  "author": "Bolaji Olajide",
+  "license": "MIT",
+  "dependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  }
+}
