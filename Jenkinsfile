@@ -5,15 +5,15 @@ pipeline {
     stage('Build') {
       steps {
         checkout scm // important so it doesnt always checkout to master
-        export NODE_ENV="development"
-        npm install -g yarn
-        yarn
+        sh 'export NODE_ENV="development"'
+        sh 'npm install -g yarn'
+        sh 'yarn'
       }
     }
 
     stage('Test') {
       steps {
-        yarn test
+        sh 'yarn test'
       }
     }
   }
