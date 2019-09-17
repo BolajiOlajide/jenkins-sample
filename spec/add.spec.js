@@ -1,4 +1,4 @@
-const { add } = require('../../module');
+const { add } = require('../module');
 
 describe('Test add method', () => {
   it('should work for integers', () => {
