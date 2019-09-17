@@ -10,8 +10,13 @@ function isEven(x, y) {
   return x % 2 === 0
 }
 
+function multiply(x, y) {
+  return x * y
+}
+
 module.exports = {
   add,
   subtract,
-  isEven
+  isEven,
+  multiply
 }
