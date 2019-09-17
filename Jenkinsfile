@@ -17,4 +17,10 @@ pipeline {
       }
     }
   }
+
+  post {
+    always {
+      echo 'Done running tests! It might fail, it might pass - I don\'t care'
+    }
+  }
 }
