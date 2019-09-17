@@ -1,6 +1,6 @@
 const { multiply } = require('../module');
 
-describe('Test add method', () => {
+describe('Test multiply method: ', () => {
   it('should work for integers', () => {
     expect(multiply(2, 8)).toEqual(16);
   });
